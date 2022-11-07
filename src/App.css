@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* height: auto; */
+
+}
+.header-wrap,
+.footer-wrap {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.header,
+.footer  {
+  width: auto;
+  max-height: 100px;
+  padding: 15px;
+  background-color: rgb(86, 98, 98);
+}
+
+.main-wrap{
+  background-color: rgb(177, 216, 177);
+  min-height: 100vh;
+  color: black;
+  /* overflow-y: scroll; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
